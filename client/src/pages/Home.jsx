@@ -4,7 +4,7 @@ import Chatcontainer from '../components/Chatcontainer'
 import RightSideBar from '../components/RightSideBar'
 
 const Home = () => {
-    const [selectedUser, setSelectedUser] = useState(false);
+    const [selectedUser, setSelectedUser] = useState(null);
 
   return (
     <div className='border w-full h-screen sm:px-[15%] sm:py-[5%]'>
